@@ -57,14 +57,16 @@ Trước hiểu cần hiểu về SOP (Same-origin Policy)
 - Là cơ chế bảo mật quan trọng trong trình duyệt
 - Hạn chế Document hoặc script được tải từ một nguồn có thể tương tác với tài nguyên từ nguồn khác *Mục đích: Bảo vệ người dùng khi truy cập trang web độc hại
  Origin:  Host, Protocol, Port
-Ví dụ
-Cho URL: http://store.company.com/dir/page.html
+Ví dụ: Cho URL: http://store.company.com/dir/page.html
+
 URL	Kết quả	Nguyên nhân
 http://store.company.com/dir2/other.html	Thành công	Cùng giao thức và host
 http://store.company.com/dir/inner/another.html	Thành công	Cùng giao thức và host
 https://store.company.com/secure.html	Thất bại	Khác giao thức
 http://store.company.com:8080/secure.html	Thất bại (*)	Cùng giao thức và host nhưng khác port
 http://shop.company.com/secure.html	Thất bại	Khác host
+
+
 - Nếu truy cập trang web có mã độc và trang web đó sử dụng Javascript để truy cập tin nhắn Facebook ở địa chỉ https://facebook.com/messages
 - Giả sử đã đăng nhập Facebook từ trước, nếu không có SOP, trang web độc hại kia có thể thoải mái lấy dữ liệu và bất cứ điều gì chúng muốn
  Tuy nhiên để có thể truy cập được đến domain khác cần dùng CORS 
