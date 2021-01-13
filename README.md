@@ -11,7 +11,7 @@ HTTP VÀ HTTPS
  <img width="387" alt="Screenshot_1" src="https://user-images.githubusercontent.com/68786130/104394101-82926200-5578-11eb-94da-390801fe4652.png">
 
 - Là giao thức không lưu trạng thái stateless protocol (server không lưu bất cứ dữ liệu nào giữa các yêu cầu)
- Các thành phần chính của HTTP
+* Các thành phần chính của HTTP
 a. HTTP Requests
 - HTTP Request Method: là phương thức để chỉ ra hành động mong muốn được thực hiện trên tài nguyên đã xác định
 
