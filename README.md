@@ -5,7 +5,8 @@ HTTP VÀ HTTPS
 - Khi truy cập một trang web qua giao thức HTTP, trình duyệt sẽ thực hiện các phiên kết nối đến server của trang web đó thông qua địa chỉ IP do hệ thống phân giải tên miền DNS cung cấp. 
 - Server khi nhận được request, sẽ trả về lệnh tương ứng giúp hiển thị website, bao gồm các nội dung như: văn bản, ảnh, video, âm thanh,…
 - Dữ liệu được gửi đi qua giao thức HTTP (IP, username, password nhập vào trang web để login) cũng không hề được mã hóa và bảo mật. 
- Dễ bị lộ thông tin khi bị nghe lén (VD bắt gói tin bằng Wireshark)
+
+-> Dễ bị lộ thông tin khi bị nghe lén (VD bắt gói tin bằng Wireshark)
  
 - Là giao thức không lưu trạng thái stateless protocol (server không lưu bất cứ dữ liệu nào giữa các yêu cầu)
  Các thành phần chính của HTTP
