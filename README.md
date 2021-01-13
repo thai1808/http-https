@@ -7,7 +7,7 @@ HTTP VÀ HTTPS
 - Dữ liệu được gửi đi qua giao thức HTTP (IP, username, password nhập vào trang web để login) cũng không hề được mã hóa và bảo mật. 
 
 -> Dễ bị lộ thông tin khi bị nghe lén (VD bắt gói tin bằng Wireshark)
- 
+ <img width="387" alt="Screenshot_1" src="https://user-images.githubusercontent.com/68786130/104394101-82926200-5578-11eb-94da-390801fe4652.png">
 - Là giao thức không lưu trạng thái stateless protocol (server không lưu bất cứ dữ liệu nào giữa các yêu cầu)
  Các thành phần chính của HTTP
 a. HTTP Requests
